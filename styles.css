@@ -95,11 +95,12 @@ a:hover {
     cursor: pointer;
     border-radius: 5px;
 }
-
-.nav li {
-    display: block;
-    padding: 0 20px;
+.nav {
     float: right;
+}
+.nav li {
+    display: inline-block;
+    padding: 0 20px;
     position: relative;
     top: 5px;
 }
