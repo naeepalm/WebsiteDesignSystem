@@ -5,14 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lemonada:wght@600&family=Libre+Franklin:ital,wght@0,400;0,700;1,400&family=Mali:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
     <title>Website Style Guide</title>
 </head>
 <body>
+    <nav>
+        <h3 class="navhead">naeepalm</h3>
+        <ul class="nav">
+            <li><a href="#Colors">Colors</a></li>
+            <li><a href="#Fonts">Fonts</a></li>
+            <li><a href="#TextStyle">Text Styles</a></li>
+        </ul>
+    </nav>
     <header>
-        <h1>Naeepalm's Website Design Guide</h1>
+        <h1 class="pghead">Website Design Guide</h1>
     </header>
-    <section> <!-- Color Section -->
-        <h2>Colors</h2>
+    <!-- Color Section -->
+    <section id="Colors"> 
+        <h2 class="sechead">Colors</h2>
         <p class="color" id="red">Keyword:<br>firebrick<br><br>Hex Value:<br>#B22222</p>
         <p class="color" id="orange">Keyword:<br>darkorange<br><br>Hex Value:<br>#FF8C00</p>
         <p class="color" id="yellow">Keyword:<br>gold<br><br>Hex Value:<br>#FFD700</p>
@@ -21,15 +31,39 @@
         <p class="color" id="purple">Keyword:<br>rebeccapurple<br><br>Hex Value:<br>#663399</p>
         <p class="color" id="brown">Keyword:<br>saddlebrown<br><br>Hex Value:<br>#8B4513</p>
     </section>
-    <section> <!-- Font Section -->
-        <h2>Fonts</h2>
-        <p class="font" id="libre-franklin"><span>Libre Franklin</span><br>The quick brown fox jumps over the lazy dog.<br><em>The quick brown fox jumps over the lazy dog.</em><br><strong>The quick brown fox jumps over the lazy dog.</strong></p>
-        <p class="font" id="merriweather"><span>Merriweather</span><br>The quick brown fox jumps over the lazy dog.<br><em>The quick brown fox jumps over the lazy dog.</em><br><strong>The quick brown fox jumps over the lazy dog.</strong></p>
-        <p class="font" id="mali"><span>Mali</span><br>The quick brown fox jumps over the lazy dog.<br><em>The quick brown fox jumps over the lazy dog.</em><br><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+    <!-- Font Section -->
+    <section id="Fonts"> 
+        <h2 class="sechead">Fonts</h2>
+        <p class="contentbox" id="libre-franklin"><span>Libre Franklin</span><br>The quick brown fox jumps over the lazy dog.<br><em>The quick brown fox jumps over the lazy dog.</em><br><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+        <p class="contentbox" id="merriweather"><span>Merriweather</span><br>The quick brown fox jumps over the lazy dog.<br><em>The quick brown fox jumps over the lazy dog.</em><br><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+        <p class="contentbox" id="mali"><span>Mali</span><br>The quick brown fox jumps over the lazy dog.<br><em>The quick brown fox jumps over the lazy dog.</em><br><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+        <p class="contentbox" id="arvo"><span>Arvo</span><br>The quick brown fox jumps over the lazy dog.<br><em>The quick brown fox jumps over the lazy dog.</em><br><strong>The quick brown fox jumps over the lazy dog.</strong></p>
     </section>
-    <section> <!-- Heading Style Section -->
-        <h2>Text Style</h2>
+    <!--Text Style Section-->
+    <section id="TextStyle"> 
+        <h2 class="sechead">Text Style</h2>
+        <div class="contentbox"><h1 id="heading">H1: Main Page Heading</h1>
+            <ul>
+                <li>Font weight: Normal / 400</li>
+                <li>Font size: 25px</li>
+                <li>Font family: Arvo</li>
+            </ul>
+        </div>
+        <div class="contentbox"><h2 id="subheading">H2: Subheading</h2>
+            <ul>
+                <li>Font weight: Normal / 400</li>
+                <li>Font size: 18px</li>
+                <li>Font family: Mali</li>
+            </ul>
+        </div>
+        <div class="contentbox">
+            <p>Paragraph text</p>
+            <ul>
+                <li>Font weight: Normal / 400</li>
+                <li>Font size: 14px</li>
+                <li>Font family: Lato</li>
+            </ul>
+        </div>
     </section>
-
 </body>
 </html>
